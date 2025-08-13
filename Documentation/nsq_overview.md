@@ -20,9 +20,12 @@ nsqlookupd                                      nsqd    (--http-address  default
 ```
 
 # 二、其他工具
-- `nsq_stat`
-- `nsq_tail`
-- `nsq_to_file`
-- `nsq_to_http`
-- `nsq_to_nsq`
-- `to_nsq`
+- `nsq_stat`:令行工具，用于查看 NSQ 集群的统计信息。
+- `nsq_tail`:命令行工具，用于实时查看指定主题 / 通道的消息内容（类似 tail -f）。
+- `nsq_to_file`:消息导出工具，用于将指定主题的消息持久化到本地文件。
+- `nsq_to_http`:消息转发工具，用于将消息发送到 HTTP 服务端点。
+- `nsq_to_nsq`:跨集群消息同步工具，用于将一个 NSQ 集群的消息转发到另一个 NSQ 集群。
+- `to_nsq`:消息生产工具，用于向 NSQ 主题发送消息（从标准输入或文件读取）。
+- `nsqadmin`: NSQ 的Web 管理界面，用于监控和管理整个 NSQ 集群。
+- `nsqd`:NSQ 的核心消息代理节点，负责接收、存储和转发消息。
+- `nsqlookupd`:NSQ 的服务发现组件，负责管理集群拓扑信息。
