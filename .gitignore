@@ -56,3 +56,15 @@ _testmain.go
 # idea
 .idea
 .DS_Store
+
+#
+00-docs/bin/nsa_stat
+00-docs/bin/nsq_tail
+00-docs/bin/nsq_stat
+00-docs/bin/nsq_to_file
+00-docs/bin/nsq_to_http
+00-docs/bin/nsq_to_nsq
+00-docs/bin/nsqadmin
+00-docs/bin/nsqd
+00-docs/bin/nsqlookupd
+00-docs/bin/to_nsq

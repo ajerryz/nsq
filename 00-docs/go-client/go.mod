@@ -1,4 +1,4 @@
-module personal-demo/go-client-nsq
+module samples
 
 go 1.24.6
 
